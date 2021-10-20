@@ -7,6 +7,7 @@ body{
      width: 100%;
      background-position: center;
      background-repeat: no-repeat;
+     background-attachment:fixed;
      margin:0px;
     }
 ul{
@@ -56,3 +57,42 @@ nav ul li a{
         font-weight:bold;
         color:#505050 
        }
+.header {
+         font-family:"JMH Typewriter";
+         font-weight:bold;
+         color:#6d6d6d;
+         font-size: 25px;
+         }
+h1, h2, h3{
+        line-height:30px;
+        margin:45px;                     
+        text-align:center;
+        width:80%; 
+        position:relative;
+        }
+h1{
+   font-family:"JMH Typewriter";
+   font-weight:bold;
+   letter-spacing:1px;
+   color:#1a1a1a;
+   font-size:30px; 
+   top:-670px;
+  right:-50px;
+  }
+h2{
+   font-family:"JMH Typewriter";
+   font-weight:bold;
+   letter-spacing:1px;
+   color:#1a1a1a;
+   font-size:25px;
+   top:-650px;
+   right:-50px;
+   }
+h3{
+   font-family:"JMH Typewriter";
+   color:#403e3e;
+   font-size:20px;
+   line-height:35px;
+   top:-640px;
+   right:-50px;
+   }
