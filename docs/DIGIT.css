@@ -1,9 +1,10 @@
 @charset "utf-8";
 /*CSS Document*/
+
 body{
      background-image:url("Background-wood.jpeg");
      background-size:cover;
-     height: 100%;
+     width: 100%;
      background-position: center;
      background-repeat: no-repeat;
      margin:0px;
@@ -28,7 +29,7 @@ nav{
     justify-content:space-between; 
     align-items: center;
     height:60px;
-    background-color: #FFFFFF;
+    background-color: #d1d6bf;
     box-shadow:2px 2px 12px rgba(0, 0, 0, 0.2); 
     padding:0px 5%;
    }
@@ -47,12 +48,13 @@ nav ul li a{
            }
 .name{
     font-family:"Summer Font";
-    color:#000000;
+    color:#505050;
     font-size:40px;
+    font-weight:bold;
     }
 .active{ 
         font-weight:bold;
-        color:#2d2a2a 
+        color:#505050 
        }
 .header {
          font-family:"JMH Typewriter";
@@ -148,3 +150,5 @@ nav ul li a{
              max-height: 40px;
              opacity: 1;
              }
+
+     
