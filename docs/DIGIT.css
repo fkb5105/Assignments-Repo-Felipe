@@ -103,7 +103,7 @@ nav ul li a{
              justify-content: center;
              padding: 0 20px;
              position:relative;
-             top:-300px;
+             top:-350px;
              }
 .link{
       color:#FFFFFF;
@@ -150,5 +150,17 @@ nav ul li a{
              max-height: 40px;
              opacity: 1;
              }
-
+footer p{
+         font-family:"Summer Font";
+         font-size:30px;
+         font-weight:bold;
+         color:#191919;
+         line-height:10px;
+         position:relative;
+         top:-300px;
+         text-align:center;
+         }
+.footer{
+       color:#191919;
+       }
      
