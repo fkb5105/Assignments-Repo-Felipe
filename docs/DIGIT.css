@@ -107,10 +107,10 @@ nav ul li a{
              top:-350px;
              }
 .link{
-      color:#FFFFFF;
+      color:#505050;
      }
 .card{
-     background-image:url("Assignments.jpg");
+     background-color:#d1d6bf;
      padding: 0 20px;
      margin: 0 10px;
      width: calc(33% - 20px);
@@ -119,7 +119,7 @@ nav ul li a{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     color: #ffffff;
+     color: #505050;
      cursor: pointer;
      border-radius:30px;
      }
@@ -139,6 +139,7 @@ nav ul li a{
                       transform:scale(1.6);
                       }
 .card p{
+        color:#505050;
         font-size:20px;
         margin-top:30px;
         font-weight:300;
@@ -162,6 +163,6 @@ footer p{
          text-align:center;
          }
 .footer{
-       color:#191919;
+       color:#000000;
        }
      
