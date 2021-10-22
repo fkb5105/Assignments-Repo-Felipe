@@ -261,7 +261,85 @@ nav ul li a{
                 top:-1750px;
                 font-size:20px;
                }
-
+.fourth-hr{
+          height:10px;
+          background-color:#d1d6bf;
+          width:100%;
+          position:relative;
+          top:-1740px;
+         }
+.sixth-analysis{
+               margin:30px; 
+               font-family:"JMH Typewriter";
+               color:#505050;            
+               line-height:30px;
+               text-align:center;
+               position:relative;            
+               top:-1730px;
+               font-size:20px;
+               }
+.Lotf-4{
+       font-size:20px;
+       font-weight:500;
+       font-family:"JMH Typewriter";
+       position:relative;
+       top:-1730px;
+       left:270px;
+       }
+.Af-4{
+     font-size:20px;
+     font-weight:500;
+     font-family:"JMH Typewriter";
+     position:relative;
+     top:-1780px;
+     left:1000px;
+     }
+.sixth-pictures{               
+               margin:25px;
+               display:flex;
+               position:relative;
+               top:-1950px;
+               }
+.column-6{
+         flex:33%;
+         padding:5px;
+         }           
+.seventh-analysis{
+               margin:30px; 
+               font-family:"JMH Typewriter";
+               color:#505050;            
+               line-height:30px;
+               text-align:center;
+               position:relative;            
+               top:-2120px;
+               font-size:20px;
+               }
+.Lotf-5{
+       font-size:20px;
+       font-weight:500;
+       font-family:"JMH Typewriter";
+       position:relative;
+       top:-2100px;
+       left:270px;
+       }
+.Af-5{
+     font-size:20px;
+     font-weight:500;
+     font-family:"JMH Typewriter";
+     position:relative;
+     top:-2150px;
+     left:1000px;
+     }
+.seventh-pictures{               
+               margin:25px;
+               display:flex;
+               position:relative;
+               top:-2200px;
+               }
+.column-7{
+         flex:33%;
+         padding:5px;
+         }       
 
 
 
