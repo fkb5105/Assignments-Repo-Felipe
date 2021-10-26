@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="corpus.css"/>
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <section>           
             <nav>
                 <a class="name" href="https://fkb5105.github.io/Felipes-site/">Felipe Bassi</a>
@@ -20,6 +21,7 @@
                 <div class="toggle"></div>
             </nav> 
         </section>
+     <div class="whole-thing">
         <div class="header">
         <p>Text Analysis</p>  
         <p>For this assignments I analyzed two phenomenal books, <i>Animal Farm</i> by George Orwell and <i>Lord
@@ -133,8 +135,8 @@
                             characters perceive the setting says a lot about their well-being and behaviours. For 
                             example, if we see the word “farm” and phrases related to it, they are mostly positive, 
                             meaning that the animals are comfortable and happy where they are. But if we check 
-                            “island” in Lord of the Flies, the contexts where this word appears are mostly negative, 
-                            suggesting that the boys are struggling to survive.</p>
+                            “island” in <i>Lord of the Flies</i>, the contexts where this word appears are mostly 
+                            negative, suggesting that the boys are struggling to survive.</p>
                     </div>
         <div>
             <p class="Lotf-4"><i>Lord of the Flies</i></p>
@@ -150,8 +152,10 @@
         </div>
                   <div class="seventh-analysis">
                       <p>Not only does AntConc show us these results, but if we plug “farm” and “good” in Voyant 
-                          we can see a strong correlation. However, when type “island” and “death” for example we 
-                          can also see that the graphs are correlated.</p>
+                          we can see a strong correlation. Something similar happens, when type “island” and “death” 
+                          for example, we can also see that the graphs are correlated. Once again, the relationship 
+                          between some words is indicating very interesting features about the books settings, characters
+                          and dialogs.</p>
                   </div>
         <div>
             <p class="Lotf-5"><i>Lord of the Flies</i></p>
@@ -165,5 +169,31 @@
                 <img src="Screenshots/farm-good.png" alt="farm-good" style="width:100%"/>
             </div>
         </div>
+        <div class="fifth-hr"><hr/></div>
+           <footer class="ending">
+               <p>This type of project is clear example of how many differences and contrasts you can find between
+                  two books that are pretty similar in terms of themes and metaphorical background. Like I said at
+                  the beginning, the styles in which both stories are narrated is what makes each one unique and 
+                  memorable. And the best way to see these books in depth is with text analysis tools like AntCon 
+                  and Voyant.</p>
+           </footer>
+     </div>
+        <script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
     </body>
 </html>
