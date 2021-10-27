@@ -18,7 +18,7 @@ a{
  }
  section{
         width:100%;
-        height: 95vh;
+        padding:30px;
         }
 nav{
     display:flex;
@@ -57,62 +57,46 @@ nav ul li a{
         font-weight:bold;
         color:#505050 
        }
-.header {
-         font-family:"JMH Typewriter";
-         font-weight:bold;
-         color:#6d6d6d;
-         font-size: 25px;
-         }
-.hello{
+h1{
       font-size:40px;
       color:#505050;
       height:20px;
-      position:relative;
-      top:-18px;
+      font-family:"JMH Typewriter";
+      padding:0 20px;
       }
 
-.header p:nth-child(2){
+h2{
                        font-family:"JMH Typewriter";
                        font-weight:bold;
                        letter-spacing:1px;
                        color:#1a1a1a;
                        font-size:37px;
+                       padding:20px;
                        }
-.header p:nth-child(3){
+h3{
                        font-family:"JMH Typewriter";
                        color:#403e3e;
                        font-size:25px;
                        line-height:35px;
+                       padding:0 20px;
                        }                                   
-.header p{
-          line-height:0px;
-          margin:45px 0px 25px;              
-          }
-.header{
-        position:absolute;
-        left:13%;
-        top:30%;
-        transform:translate(-13%, -42%);
-        }
+
 .assignments{;
              font-family:"JMH Typewriter";
              display: flex;
              margin:50px 105px;
-             width: 100%;
              max-width: 1200px;
              align-items: center;
              justify-content: center;
              padding: 0 20px;
-             position:relative;
-             top:-350px;
              }
 .link{
       color:#FFFFFF;
      }
 .card{
      background-color:#a7b594;
-     padding: 0 20px;
-     margin: 0 10px;
+     padding: 0 40px;
+     margin: 0 20px;
      width: calc(33% - 20px);
      height: 200px;
      display: flex;
@@ -139,7 +123,7 @@ nav ul li a{
                       transform:scale(1.6);
                       }
 .card p{
-        font-size:20px;
+        font-size:30px;
         margin-top:30px;
         font-weight:300;
         letter-spacing:2px;
@@ -151,16 +135,17 @@ nav ul li a{
              max-height: 40px;
              opacity: 1;
              }
+footer{
+      padding:30px;
+      }
 footer p{
          font-family:"Summer Font";
-         font-size:30px;
+         font-size:35px;
          font-weight:bold;
          line-height:10px;
-         position:relative;
-         top:-300px;
          text-align:center;
          }
-.footer{
+.footerlink{
        color:#000000;
        }
 @media(max-width:480px)
