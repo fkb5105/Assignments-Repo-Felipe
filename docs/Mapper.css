@@ -77,8 +77,10 @@ iframe{
       height:500px;
       }
 footer{
+      padding:15px;
       text-align:center;
       color:#505050;
       font-family:"JMH Typewriter";
       font-weight:bold;
+      line-height:30px;
       }
