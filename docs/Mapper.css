@@ -66,6 +66,10 @@ h2{
   font-family:"JMH Typewriter";
   font-weight:bold; 
   }
+iframe{
+      padding:20px;
+      justify-content:center;
+      }
 footer{
       padding:15px;
       text-align:center;
