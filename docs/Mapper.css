@@ -67,14 +67,16 @@ h2{
   font-weight:bold; 
   }
 .mapper{
-      
-      padding:10px;
-      display:flex;
-      justify-content:center;
+       padding:10px;
+       display:flex;
+       justify-content:center;
        }
 iframe{
-      width:90%;
-      height:500px;
+      padding:20px;
+      display:flex;
+      justify-content:center;
+      width:100%;
+      height:780px;
       }
 footer{
       padding:15px;
