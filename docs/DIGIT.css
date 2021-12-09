@@ -136,18 +136,25 @@ h3{
              opacity: 1;
              }
 footer{
-      padding:30px;
+      padding:20px;
+      justify-content:center;
       }
 footer p{
          font-family:"Summer Font";
-         font-size:35px;
+         font-size:30px;
          font-weight:bold;
          line-height:10px;
          text-align:center;
          }
-.footerlink{
-       color:#000000;
-       }
+.footer-image{
+             border-width:0;
+             display:block;
+             margin-left:auto;
+             margin-right:auto;
+             }
+.footer-link{
+            color:#505050;
+            }
 @media(max-width:480px)
                        {
                         html, body{
