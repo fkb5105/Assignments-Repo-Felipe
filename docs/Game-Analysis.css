@@ -54,19 +54,76 @@ nav ul li a{
     font-weight:bold;
     }
 iframe{
-      padding:30px;
+      padding:20px;
       width:85%;
-      margin-top:40px;
       }
+h1{
+      color:#505050;
+      font-family:"JMH Typewriter";
+      text-align:center;
+  }
+.top{
+    font-size:40px;
+    margin-top:50px;
+    }
+.title{
+       font-size:35px;
+       }
 img{
-   width:50%;
-   padding:20px;
-   
+   padding:10px;  
+   align-items:center;
+   justify-content:center;
    }
-.pictures{
-          justify-content: center;
-          align-items: center;
-         }
 .first{
       margin-top:30px;
+      width:40%;
+      padding:0 55px;
       }
+h2{
+    font-size:30px;
+    color:#505050;
+    font-family:"JMH Typewriter";
+    padding:0 20px;
+   }
+.features{
+         font-family: "JMH Typewriter";
+         line-height:35px;
+         color:#000000;
+         font-size:20px;
+         padding:0 20px;
+         margin-top:25px;
+         }
+.features li{
+            padding:12px;
+            }
+.game{
+         font-family: "JMH Typewriter";
+         line-height:35px;
+         color:#000000;
+         font-size:20px;
+         padding: 0 40px;
+         margin-top: 25px;
+          }  
+.gameplay-pictures{
+                  padding:0 55px;
+                  width:40%;
+                  }
+.graphics-pictures{
+                  float:left;
+                  width:30%;
+                  padding:10px;
+                  margin-bottom:20px;
+                  }         
+h3{
+   font-size:25px;
+   color:#505050;
+   font-family:"JMH Typewriter";
+   padding:0 20px;
+  }         
+.soundtrack{
+           color:#000000;
+           }         
+         
+         
+         
+          
