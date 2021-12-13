@@ -54,8 +54,11 @@ nav ul li a{
     font-weight:bold;
     }
 iframe{
-      padding:20px 60px;
+      padding:20px;
       width:85%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       }
 h1{
       color:#505050;
@@ -76,8 +79,10 @@ img{
    }
 .first{
       margin-top:30px;
-      width:40%;
-      padding:0 55px;
+      width:70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       }
 h2{
     font-size:30px;
@@ -123,7 +128,15 @@ h3{
 .soundtrack{
            color:#000000;
            }         
-         
-         
-         
-          
+.game-options{
+             padding:15px;
+             }                   
+.last{
+     width:70%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+      }          
+.second-h3{
+          padding:0 20px;
+          }          
